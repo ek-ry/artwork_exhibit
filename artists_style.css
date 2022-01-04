@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    /*background-color: #2ECC71 ;*/
+    background-image: url("artist\ bg.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+image {
+    height: 200px;
+    width: 200px;
+}
+
+/*center {
+    color: 		yellowgreen ;
+}*/
+
+nav{
+    width: 100%;
+    height: 100px;
+    /*background-color: chartreuse;*/
+    
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height : 100px;
+    padding: 0 20px;
+}
+
+ul li a {
+    text-decoration:none ;
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+    
+}
+
+img {
+    
+    width: 100%;
+    padding: 150 150px;
+   
+    clear: both;
+    display: table;
+    padding: 5px;
+    /*content: "";
+    clear: both;
+    display: table;
+    /*width: 150px;
+    height: 150px;
+    object-fit: cover;*/
+}
+
+p {
+    padding: 0 5%;
+    font-size: 35px;
+    color: black (255, 255, 255);
+   
+}
+
+div {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+
+/*a {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    line-height : 100px;
+    padding: 0 20px;
+}*/
+
+.ars a {
+    text-decoration:none ;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    line-height:initial;
+    padding: 10 0px;
+    display: inline-block;
+    display: flex;
+    flex: 33.33%;
+}
+
+.chezca img {
+    width: 150px;
+    height: 150px;
+}
+.lewis img {
+    width: 150px;
+    height: 150px;
+}
+.erycha img {
+    width: 150px;
+    height: 150px;
+}
+
+.angelo img {
+    width: 150px;
+    height: 150px;
+}
+
+/*.img1 {
+  position: fixed;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+}*/
+
+/*position: fixed;
+  bottom: 24px;
+  border-bottom-left-radius: 0px;
+  height: auto;
+  width: 50%;*/
+
+.ang a {
+    text-decoration:none ;
+    font-size: 20px;
+    font-family: Arial;
+    color: black;
+    float: left;
+    padding: 0 20px;
+    line-height: 100px;
+     
+}
+
+.angart img {
+    width: 150px;
+    height: 150px;
+}
+
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.chezart {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.angart {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+
+.eryart {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.lewart {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
